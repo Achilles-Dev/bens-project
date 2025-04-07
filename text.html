@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Life Math Applications</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    #topnav li {
+      display: inline-table;
+      list-style: none;
+      padding: 8px;
+    }
+    body {
+      min-height: 95vh;
+    }
+    #topnav li a {
+      color: limegreen;
+    }
+    .topnav-clicked {
+      color: red !important;
+    }
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Integrating Real-Life Contexts into Mathematics</h1>
+      <nav id="topnav">
+        <ul>
+          <li><a href="#home" class="pages" name="home">Home</a></li>
+          <li><a href="#lessons" class="pages" name="lessons">Lessons</a></li>
+          <li>
+            <a href="#resources" class="pages" name="resources">Resources</a>
+          </li>
+          <li><a href="#blog" class="pages" name="blog">Blog</a></li>
+          <li>
+            <a href="#community" class="pages" name="community"
+              >Community Forum</a
+            >
+          </li>
+          <li><a href="#about" class="pages" name="about">About</a></li>
+          <li><a href="#contact" class="pages" name="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h2 style="color: rgb(27, 109, 233)">
+        Welcome to Real-Life Math Connections
+      </h2>
+      <p>
+        We're excited to have you here! This site is dedicated to exporing how
+        real-life contexts can trasform mathematics intructions into a more
+        engaging, meaningful,<br />
+        and relevant experience for students. Whether you are an educator,
+        student, ro enthusiast, you will find resourses, stategies and ideas
+        that show how Math <br />
+        is not just a subject - but a powerful too we use every day in the real
+        world. Let's make Maths come alive together!
+      </p>
+      <img
+        src="images/joboalerMathish-1020x769.jpg"
+        name="slide"
+        width="1000"
+        height="500"
+      />
+    </section>
+
+    <section id="lessons" style="display: none">
+      <h2>Lesson Plans</h2>
+      <p>
+        Explore our collection of lesson plans that incorporate real-world
+        applications to teach mathematical concepts.
+      </p>
+      <ul>
+        <li><a href="files/lesson1.pdf" target="_blank">Lesson 1</a></li>
+        <li><a href="files/lesson2.pdf" target="_blank">Lesson 2</a></li>
+        <li><a href="files/lesson3.pdf" target="_blank">Lesson 3</a></li>
+        <li><a href="files/lesson4.pdf" target="_blank">Lesson 4</a></li>
+      </ul>
+      <!-- Add lesson plan links or summaries here -->
+    </section>
+
+    <section id="resources" style="display: none">
+      <h2>Resources</h2>
+      <p>
+        Access worksheets, videos, and interactive tools to support your math
+        instruction.
+      </p>
+      <ul>
+        <li>
+          <a href="files/SHAPES AND THEIR REAL IMAGES .pdf" target="_blank"
+            >Shapes and their Real Images</a
+          >
+        </li>
+        <li>
+          <a href="files/SURFACE AREA & VOLUMES.pdf" target="_blank"
+            >Surface Area and Volumes</a
+          >
+        </li>
+        <li>
+          <a href="files/worksheet on volumes of prisms.pdf" target="_blank"
+            >Worksheet on Volume of Prisms</a
+          >
+        </li>
+      </ul>
+      <ul>
+        <li style="display: flex; flex-direction: column; gap: 5px">
+          <h4>Tutorial One (1)</h4>
+          <video
+            width="640"
+            height="360"
+            controls
+            muted
+            loop
+            title="Tutorial One (1)"
+          >
+            <source src="files/BEN.mp4" type="video/mp4" />
+          </video>
+        </li>
+      </ul>
+      <ul>
+        <li style="display: flex; flex-direction: column; gap: 5px">
+          <h4>Tutorial Two (2)</h4>
+          <video
+            width="640"
+            height="360"
+            controls
+            muted
+            loop
+            title="Tutorial Two (2)"
+          >
+            <source src="files/phil.mp4" type="video/mp4" />
+          </video>
+        </li>
+      </ul>
+      <!-- Add resource links here -->
+    </section>
+
+    <section id="blog" style="display: none">
+      <h2>Blog</h2>
+      <p>
+        Read articles on strategies for integrating real-life contexts into math
+        instruction and success stories from educators.
+      </p>
+      <ul>
+        <li>
+          <a href="files/INQUIRY PROJECT PROPOSAL.pdf" target="_blank"
+            >Article One (1)</a
+          >
+        </li>
+        <li>
+          <a
+            href="files/MATHEMATICS AUTOBIOGRAPHY BY BENJAMIN DWOMOH.pdf"
+            target="_blank"
+            >Article Two (2)</a
+          >
+        </li>
+      </ul>
+      <!-- Add blog post summaries and links here -->
+    </section>
+
+    <section id="community" style="display: none">
+      <h2>Community Forum</h2>
+      <p>
+        Join discussions with educators and students to share experiences and
+        collaborate on best practices.
+      </p>
+      <!-- Embed forum or link to community platform -->
+    </section>
+
+    <section id="about" style="display: none">
+      <h2>About Us</h2>
+      <p>
+        Learn about our mission to make math education more relevant and
+        engaging by connecting it to real-life contexts.
+      </p>
+    </section>
+
+    <section id="contact" style="display: none">
+      <h2>Contact</h2>
+      <p>Have questions or feedback? Reach out to us through the form below.</p>
+      <!-- Add contact form here -->
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 Real-Life Math Applications. All rights reserved.</p>
+    </footer>
+
+    <script>
+      const homeSection = document.getElementById("home");
+      const lessonsSection = document.getElementById("lessons");
+      const resourcesSection = document.getElementById("resources");
+      const blogSection = document.getElementById("blog");
+      const communitySection = document.getElementById("community");
+      const aboutSection = document.getElementById("about");
+      const contactSection = document.getElementById("contact");
+
+      const pages = document.getElementsByClassName("pages");
+
+      const handlePageButtonClick = (e) => {
+        const name = e.target.name;
+        const sections = [
+          homeSection,
+          lessonsSection,
+          resourcesSection,
+          blogSection,
+          communitySection,
+          aboutSection,
+          contactSection,
+        ];
+        sections.forEach((section) => {
+          const sectionId = section.id;
+          if (sectionId === name) {
+            section.style.display = "";
+          } else {
+            section.style.display = "none";
+          }
+        });
+
+        [...pages].forEach((page) => {
+          if (page.name !== name) {
+            page.classList.remove("topnav-clicked");
+          } else {
+            page.classList.add("topnav-clicked");
+          }
+        });
+      };
+
+      [...pages].forEach((page) =>
+        page.addEventListener("click", handlePageButtonClick)
+      );
+
+      let image1 = new Image();
+      image1.src = "images/joboalerMathish-1020x769.jpg";
+      let image2 = new Image();
+      image2.src = "images/d4bc7100-a703-4e75-9056-9d4cab125ee6.png";
+      let image3 = new Image();
+      image3.src = "images/16405496018_8cd4b0a186.jpg";
+      let image4 = new Image();
+      image4.src = "images/9e3660fa165b4c48a7a0fd5722d07af0.jpg";
+      let image5 = new Image();
+      image5.src = "images/9e3660fa165b4c48a7a0fd5722d07af0.jpg";
+      let image6 = new Image();
+      image6.src = "images/756f16bee9bb19c11635222af4814709.jpg";
+      let image7 = new Image();
+      image7.src =
+        "images/825_585_16-memorial-university-of-newfoundland-psd.jpg";
+      let image8 = new Image();
+      image8.src = "images/hq720 (3).jpg";
+      let image9 = new Image();
+      image9.src = "images/memorial-university-1-1200x900.webp";
+      let image10 = new Image();
+      image10.src =
+        "images/Memorial-University-of-Newfoundland05af39413d0fe185.webp";
+      let image11 = new Image();
+      image11.src = "images/download (2).jpeg";
+      let image12 = new Image();
+      image12.src = "images/Collaborative_Math_Classroom_Blog_Header_v2.jpg";
+      let image13 = new Image();
+      image13.src =
+        "images/become a student mobile--stratum_web_optimized_jpg--.webp";
+      let image14 = new Image();
+      image14.src = "images/childsmaths-6.png";
+      let image15 = new Image();
+      image15.src = "images/1740318845492.png";
+      let image16 = new Image();
+      image16.src = "images/51353266168_74a15bfc82_w.jpg";
+
+      var step = 1;
+      function slideit() {
+        document.images.slide.src = eval("image" + step + ".src");
+        if (step < 15) step++;
+        else step = 1;
+        setTimeout("slideit()", 2500);
+      }
+      slideit();
+    </script>
+  </body>
+</html>
